@@ -19,7 +19,7 @@
 }
 const translations = {
   lt: {
-    navAbout: "Apie", navVideo: "Video", navVisuals: "Vizualai", navLogo: "Logotipai", navExperience: "Patirtis", navContacts: "Kontaktai",
+    navAbout: "Apie", navVideo: "Video", navVisuals: "Vizualai", navLogo: "Logotipai", navContacts: "Kontaktai",
     heroEyebrow: "Multimedija · video montažas · grafinis dizainas",
     heroIntro: "Studijuoju multimediją ir kompiuterinį dizainą Vilniaus Gedimino technikos universitete. Portfolio pristatau filmų, video montažo, grafinių vizualų, logotipų ir maketavimo darbus.",
     heroVideo: "Video darbai", heroDesign: "Grafiniai darbai",
@@ -43,15 +43,11 @@ const translations = {
     card6Type: "Moodboard", card6Title: "Vizualinė kryptis", card6Text: "Nuotaikos, spalvų ir stiliaus paieška prieš kuriant galutinį dizaino sprendimą.",
     logoEyebrow: "Logotipai", logoTitle: "Logotipo ir identiteto darbai",
     logo1Type: "Universiteto logotipo idėja", logo1Title: "Ritmo", logo1Text: "Švari forma, judesio pojūtis ir lengvai atpažįstamas ženklas.",
-    logo2Type: "Produkto identitetas", logo2Title: "Kava logo", logo2Text: "Minimalus logotipo sprendimas, tinkamas pakuotei ir produkto komunikacijai.",
-    expEyebrow: "Darbo patirtis", expTitle: "Darbo patirtis",
-    exp1Span: "2024.07 - 2025.10 · UAB OTCF Lithuania", exp1Title: "Klientų aptarnavimas ir parduotuvės priežiūra", exp1Text: "Dirbau 4F sporto drabužių parduotuvėje. Buvau atsakinga ne tik už profesionalų klientų aptarnavimą, bet ir už stilistės tipo pagalbą: padėjau klientams išsirinkti tinkamus drabužių derinius pagal jų poreikius, aktyvumą ir stilių. Taip pat dirbau su kasos aparatu, prekių priėmimu, pakavimu ir tvarkingu prekių išdėstymu parduotuvėje.",
-    exp2Span: "2023.06 - 2023.09 · UAB Kulinarijos studija", exp2Title: "Pardavėja-asistentė", exp2Text: "Dirbau renginių asistente ir prisidėjau prie renginių organizavimo bei sklandžios jų eigos. Buvau atsakinga už pasiruošimą renginiui, pagalbą komandai ir darbą renginio metu. Taip pat dirbau su šefu Luca Demarco, padėjau virtuvėje, aptarnavau klientus, dirbau kasa, ruošiau kavą ir kruasanus.",
-    contactEyebrow: "Kontaktai", contactTitle: "Susisiekime", contactText: "Esu atvira praktikos, kūrybinių projektų ar bendradarbiavimo pasiūlymams.", copied: "Numeris nukopijuotas", copyFail: "Nepavyko nukopijuoti",
+    logo2Type: "Produkto identitetas", logo2Title: "Kava logo", logo2Text: "Minimalus logotipo sprendimas, tinkamas pakuotei ir produkto komunikacijai.",    contactEyebrow: "Kontaktai", contactTitle: "Susisiekime", contactText: "Esu atvira praktikos, kūrybinių projektų ar bendradarbiavimo pasiūlymams.", copied: "Numeris nukopijuotas", copyFail: "Nepavyko nukopijuoti",
     footer: "Eva Miodišauskaitė. Multimedijos portfolio."
   },
   en: {
-    navAbout: "About", navVideo: "Video", navVisuals: "Visuals", navLogo: "Logos", navExperience: "Experience", navContacts: "Contact",
+    navAbout: "About", navVideo: "Video", navVisuals: "Visuals", navLogo: "Logos", navContacts: "Contact",
     heroEyebrow: "Multimedia · video editing · graphic design",
     heroIntro: "I study Multimedia and Computer Design at Vilnius Gediminas Technical University. This portfolio presents my film, video editing, graphic design, logo and layout work.",
     heroVideo: "Video work", heroDesign: "Graphic work",
@@ -75,11 +71,7 @@ const translations = {
     card6Type: "Moodboard", card6Title: "Visual direction", card6Text: "Exploration of mood, colors and style before creating the final design solution.",
     logoEyebrow: "Logos", logoTitle: "Logo and identity work",
     logo1Type: "University logo concept", logo1Title: "Ritmo", logo1Text: "A clean form, sense of movement and an easily recognizable mark.",
-    logo2Type: "Product identity", logo2Title: "Coffee logo", logo2Text: "A minimal logo solution suitable for packaging and product communication.",
-    expEyebrow: "Work experience", expTitle: "Work experience",
-    exp1Span: "2024.07 - 2025.10 · UAB OTCF Lithuania", exp1Title: "Customer service and store presentation", exp1Text: "I worked in a 4F sportswear store. My responsibilities included professional customer service and stylist-like support: helping customers choose suitable outfit combinations based on their needs, activity and style. I also worked with the cash register, product receiving, packaging and neat product presentation in the store.",
-    exp2Span: "2023.06 - 2023.09 · UAB Kulinarijos studija", exp2Title: "Sales assistant / event assistant", exp2Text: "I worked as an event assistant and contributed to event preparation and smooth execution. I was responsible for helping prepare events, supporting the team and assisting during the event. I also worked with chef Luca Demarco, helped in the kitchen, served customers, worked with the cash register and prepared coffee and croissants.",
-    contactEyebrow: "Contact", contactTitle: "Let’s connect", contactText: "I am open to internship, creative project and collaboration opportunities.", copied: "Phone number copied", copyFail: "Could not copy",
+    logo2Type: "Product identity", logo2Title: "Coffee logo", logo2Text: "A minimal logo solution suitable for packaging and product communication.",    contactEyebrow: "Contact", contactTitle: "Let’s connect", contactText: "I am open to internship, creative project and collaboration opportunities.", copied: "Phone number copied", copyFail: "Could not copy",
     footer: "Eva Miodišauskaitė. Multimedia portfolio."
   }
 };
@@ -108,7 +100,7 @@ const videoTexts = {
 };
 
 const selectors = {
-  navAbout: '.nav a[href="#apie"]', navVideo: '.nav a[href="#video"]', navVisuals: '.nav a[href="#vizualai"]', navLogo: '.nav a[href="#logo"]', navExperience: '.nav a[href="#patirtis"]', navContacts: '.nav a[href="#kontaktai"]',
+  navAbout: '.nav a[href="#apie"]', navVideo: '.nav a[href="#video"]', navVisuals: '.nav a[href="#vizualai"]', navLogo: '.nav a[href="#logo"]', navContacts: '.nav a[href="#kontaktai"]',
   heroEyebrow: '.hero .eyebrow', heroIntro: '.intro', heroVideo: '.hero-actions a:first-child', heroDesign: '.hero-actions a:last-child',
   aboutEyebrow: '#apie .eyebrow', aboutTitle: '#apie h2', about1: '#apie .about-grid p:nth-child(1)', about2: '#apie .about-grid p:nth-child(2)', about3: '#apie .about-grid p:nth-child(3)',
   videoEyebrow: '#video .eyebrow', videoTitle: '#video h2', videoNote: '#video .section-note',
@@ -121,9 +113,7 @@ const selectors = {
   card4Type: '.project-grid .project-card:nth-child(4) .project-type', card4Title: '.project-grid .project-card:nth-child(4) h3', card4Text: '.project-grid .project-card:nth-child(4) p:not(.project-type)',
   card5Type: '.project-grid .project-card:nth-child(5) .project-type', card5Title: '.project-grid .project-card:nth-child(5) h3', card5Text: '.project-grid .project-card:nth-child(5) p:not(.project-type)',
   card6Type: '.project-grid .project-card:nth-child(6) .project-type', card6Title: '.project-grid .project-card:nth-child(6) h3', card6Text: '.project-grid .project-card:nth-child(6) p:not(.project-type)',
-  logoEyebrow: '#logo .eyebrow', logoTitle: '#logo h2', logo1Type: '.logo-card:nth-child(1) .project-type', logo1Title: '.logo-card:nth-child(1) h3', logo1Text: '.logo-card:nth-child(1) p:not(.project-type)', logo2Type: '.logo-card:nth-child(2) .project-type', logo2Title: '.logo-card:nth-child(2) h3', logo2Text: '.logo-card:nth-child(2) p:not(.project-type)',
-  expEyebrow: '#patirtis .eyebrow', expTitle: '#patirtis h2', exp1Span: '.experience-list article:nth-child(1) span', exp1Title: '.experience-list article:nth-child(1) h3', exp1Text: '.experience-list article:nth-child(1) p', exp2Span: '.experience-list article:nth-child(2) span', exp2Title: '.experience-list article:nth-child(2) h3', exp2Text: '.experience-list article:nth-child(2) p',
-  contactEyebrow: '#kontaktai .eyebrow', contactTitle: '#kontaktai h2', contactText: '.contact-box p'
+  logoEyebrow: '#logo .eyebrow', logoTitle: '#logo h2', logo1Type: '.logo-card:nth-child(1) .project-type', logo1Title: '.logo-card:nth-child(1) h3', logo1Text: '.logo-card:nth-child(1) p:not(.project-type)', logo2Type: '.logo-card:nth-child(2) .project-type', logo2Title: '.logo-card:nth-child(2) h3', logo2Text: '.logo-card:nth-child(2) p:not(.project-type)',  contactEyebrow: '#kontaktai .eyebrow', contactTitle: '#kontaktai h2', contactText: '.contact-box p'
 };
 
 let currentLang = localStorage.getItem('portfolio-lang') || 'lt';
