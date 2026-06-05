@@ -1,0 +1,7 @@
+﻿VLC versija 3.0.20 Vetinari (3.0.20-0-g6f0d0ab126)
+Sukompiliavo videolan su runner-sgapdqg-project-435-concurrent-1 (Oct 30 2023 08:52:32)
+Kompiliatorius: gcc version 6.4.0 (GCC)
+Ši programa pateikiama be JOKIŲ GARANTIJŲ, kiek tai leidžia įstatymai.
+Galite ją modifikuoti GNU bendrosios viešosios licencijos sąlygomis;
+jas rasite COPYING faile.
+Sukūrė VideoLAN komanda; žiūrėkite AUTHORS failą.
