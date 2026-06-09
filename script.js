@@ -42,8 +42,17 @@ const translations = {
     card5Type: "Produkto turinys", card5Title: "Nescafe foto", card5Text: "Produkto nuotrauka, pritaikoma reklamos, posterio ar skaitmeninio maketo kūrimui.",
     card6Type: "Moodboard", card6Title: "Vizualinė kryptis", card6Text: "Nuotaikos, spalvų ir stiliaus paieška prieš kuriant galutinį dizaino sprendimą.",
     logoEyebrow: "Logotipai", logoTitle: "Logotipo ir identiteto darbai",
+    lunaraType: "Grožio prekės ženklo identitetas", lunaraTitle: "Lunara Skin", lunaraIntro: "Subtilus odos priežiūros prekės ženklas, kuriam sukūriau logotipą, spalvų sistemą ir vizualinę kryptį. Identitetas jungia natūralumą, ramybę ir šiuolaikišką prabangą.",
+    lunaraRoleLabel: "Mano vaidmuo", lunaraRole: "Logotipo ir vizualinio identiteto kūrimas", lunaraToolsLabel: "Naudotos programos",
+    lunaraConceptEyebrow: "Koncepcija", lunaraConceptTitle: "Nuo idėjos iki ženklo",
+    lunaraConcept1: "„Lunara“ pavadinimas siejasi su mėnuliu, natūraliais ciklais ir vakaro ramybe. Dėl to ženklui pasirinkta švelni, subalansuota ir lengvai atpažįstama forma.",
+    lunaraConcept2: "Simbolyje susijungia lašas, lapas ir mėnulio pjautuvas. Lašas perteikia drėkinimą, lapas – natūralią sudėtį, o mėnulis – odos atsinaujinimą ir kasdienį priežiūros ritualą.",
+    lunaraSystemEyebrow: "Vizualinė sistema", lunaraSystemTitle: "Rami ir natūrali spalvų kryptis", lunaraSystemText: "Smėlio ir šilti balti tonai kuria švaros bei natūralumo pojūtį. Prislopinta melsva spalva suteikia patikimumo, gaivos ir išskirtinumo, o juoda užtikrina aiškų ženklo naudojimą skirtinguose formatuose.",
+    lunaraApplicationEyebrow: "Pritaikymas", lunaraApplicationTitle: "Identitetas realiuose formatuose", lunaraApplicationText: "Logotipo sistema išbandyta ant kosmetikos pakuočių, produkto etikečių, vizitinių kortelių ir pirkinių maišelio. Tai parodo, kad ženklas išlieka atpažįstamas tiek mažame, tiek dideliame formate.",
+    otherLogosEyebrow: "Kiti logotipai", otherLogosTitle: "Papildomi identiteto darbai",
     logo1Type: "Universiteto logotipo idėja", logo1Title: "Ritmo", logo1Text: "Švari forma, judesio pojūtis ir lengvai atpažįstamas ženklas.",
-    logo2Type: "Produkto identitetas", logo2Title: "Kava logo", logo2Text: "Minimalus logotipo sprendimas, tinkamas pakuotei ir produkto komunikacijai.",    contactEyebrow: "Kontaktai", contactTitle: "Susisiekime", contactText: "Esu atvira praktikos, kūrybinių projektų ar bendradarbiavimo pasiūlymams.", copied: "Numeris nukopijuotas", copyFail: "Nepavyko nukopijuoti",
+    logo2Type: "Produkto identitetas", logo2Title: "Kava logo", logo2Text: "Minimalus logotipo sprendimas, tinkamas pakuotei ir produkto komunikacijai.",
+    contactEyebrow: "Kontaktai", contactTitle: "Susisiekime", contactText: "Esu atvira praktikos, kūrybinių projektų ar bendradarbiavimo pasiūlymams.", copied: "Numeris nukopijuotas", copyFail: "Nepavyko nukopijuoti",
     footer: "Eva Miodišauskaitė. Multimedijos portfolio."
   },
   en: {
@@ -70,8 +79,17 @@ const translations = {
     card5Type: "Product content", card5Title: "Nescafe photo", card5Text: "A product photo suitable for advertising, poster or digital layout design.",
     card6Type: "Moodboard", card6Title: "Visual direction", card6Text: "Exploration of mood, colors and style before creating the final design solution.",
     logoEyebrow: "Logos", logoTitle: "Logo and identity work",
+    lunaraType: "Beauty brand identity", lunaraTitle: "Lunara Skin", lunaraIntro: "A refined skincare brand for which I created the logo, color system and visual direction. The identity brings together natural beauty, calm and contemporary luxury.",
+    lunaraRoleLabel: "My role", lunaraRole: "Logo and visual identity design", lunaraToolsLabel: "Tools used",
+    lunaraConceptEyebrow: "Concept", lunaraConceptTitle: "From idea to mark",
+    lunaraConcept1: "The name Lunara is associated with the moon, natural cycles and evening calm. This inspired a soft, balanced and easily recognizable visual form.",
+    lunaraConcept2: "The symbol combines a drop, a leaf and a crescent moon. The drop represents hydration, the leaf reflects natural ingredients, and the moon conveys skin renewal and a daily care ritual.",
+    lunaraSystemEyebrow: "Visual system", lunaraSystemTitle: "A calm, natural color direction", lunaraSystemText: "Sand and warm white tones create a sense of purity and natural beauty. Muted blue adds trust, freshness and distinction, while black ensures clear logo use across different formats.",
+    lunaraApplicationEyebrow: "Application", lunaraApplicationTitle: "The identity in real formats", lunaraApplicationText: "The logo system was tested across cosmetic packaging, product labels, business cards and a shopping bag. This demonstrates that the mark remains recognizable at both small and large scales.",
+    otherLogosEyebrow: "Other logos", otherLogosTitle: "Additional identity work",
     logo1Type: "University logo concept", logo1Title: "Ritmo", logo1Text: "A clean form, sense of movement and an easily recognizable mark.",
-    logo2Type: "Product identity", logo2Title: "Coffee logo", logo2Text: "A minimal logo solution suitable for packaging and product communication.",    contactEyebrow: "Contact", contactTitle: "Let’s connect", contactText: "I am open to internship, creative project and collaboration opportunities.", copied: "Phone number copied", copyFail: "Could not copy",
+    logo2Type: "Product identity", logo2Title: "Coffee logo", logo2Text: "A minimal logo solution suitable for packaging and product communication.",
+    contactEyebrow: "Contact", contactTitle: "Let’s connect", contactText: "I am open to internship, creative project and collaboration opportunities.", copied: "Phone number copied", copyFail: "Could not copy",
     footer: "Eva Miodišauskaitė. Multimedia portfolio."
   }
 };
@@ -113,7 +131,15 @@ const selectors = {
   card4Type: '.project-grid .project-card:nth-child(4) .project-type', card4Title: '.project-grid .project-card:nth-child(4) h3', card4Text: '.project-grid .project-card:nth-child(4) p:not(.project-type)',
   card5Type: '.project-grid .project-card:nth-child(5) .project-type', card5Title: '.project-grid .project-card:nth-child(5) h3', card5Text: '.project-grid .project-card:nth-child(5) p:not(.project-type)',
   card6Type: '.project-grid .project-card:nth-child(6) .project-type', card6Title: '.project-grid .project-card:nth-child(6) h3', card6Text: '.project-grid .project-card:nth-child(6) p:not(.project-type)',
-  logoEyebrow: '#logo .eyebrow', logoTitle: '#logo h2', logo1Type: '.logo-card:nth-child(1) .project-type', logo1Title: '.logo-card:nth-child(1) h3', logo1Text: '.logo-card:nth-child(1) p:not(.project-type)', logo2Type: '.logo-card:nth-child(2) .project-type', logo2Title: '.logo-card:nth-child(2) h3', logo2Text: '.logo-card:nth-child(2) p:not(.project-type)',  contactEyebrow: '#kontaktai .eyebrow', contactTitle: '#kontaktai h2', contactText: '.contact-box p'
+  logoEyebrow: '#logo > .section-heading .eyebrow', logoTitle: '#logo > .section-heading h2',
+  lunaraType: '.lunara-type', lunaraTitle: '.lunara-title', lunaraIntro: '.lunara-intro',
+  lunaraRoleLabel: '.lunara-role-label', lunaraRole: '.lunara-role', lunaraToolsLabel: '.lunara-tools-label',
+  lunaraConceptEyebrow: '.lunara-concept-eyebrow', lunaraConceptTitle: '.lunara-concept-title', lunaraConcept1: '.lunara-concept-1', lunaraConcept2: '.lunara-concept-2',
+  lunaraSystemEyebrow: '.lunara-system-eyebrow', lunaraSystemTitle: '.lunara-system-title', lunaraSystemText: '.lunara-system-text',
+  lunaraApplicationEyebrow: '.lunara-application-eyebrow', lunaraApplicationTitle: '.lunara-application-title', lunaraApplicationText: '.lunara-application-text',
+  otherLogosEyebrow: '.other-logos-eyebrow', otherLogosTitle: '.other-logos-title',
+  logo1Type: '.logo-card:nth-child(1) .project-type', logo1Title: '.logo-card:nth-child(1) h3', logo1Text: '.logo-card:nth-child(1) p:not(.project-type)', logo2Type: '.logo-card:nth-child(2) .project-type', logo2Title: '.logo-card:nth-child(2) h3', logo2Text: '.logo-card:nth-child(2) p:not(.project-type)',
+  contactEyebrow: '#kontaktai .eyebrow', contactTitle: '#kontaktai h2', contactText: '.contact-box p'
 };
 
 let currentLang = localStorage.getItem('portfolio-lang') || 'lt';
