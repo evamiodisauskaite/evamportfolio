@@ -3,142 +3,492 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eva Miodišauskaitė | Multimedijos portfolio</title>
-  <meta name="description" content="Eva Miodišauskaitė portfolio: video montažas, trumpametražiai filmai, grafinis dizainas, posteriai ir logotipai.">
+  <title>Eva Miodišauskaitė | Grafinis dizainas ir video</title>
+  <meta name="description" content="Eva Miodišauskaitė yra grafinė dizainerė ir video kūrėja. Portfolio rodo prekių ženklų identitetus, plakatus, reklaminius vizualus ir trumpametražius filmus.">
+  <meta name="theme-color" content="#0b0907">
+  <link rel="icon" type="image/svg+xml" href="assets/logo-mc.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260609-2">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261110-13">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="mc" viewBox="243 110 514 385">
+      <path d="M273 110H552A30 30 0 0 1 582 140V195A15 15 0 0 0 597 210H712A45 45 0 0 1 712 300H660A51.5 51.5 0 0 0 660 403H712A46 46 0 0 1 712 495H561A45 45 0 0 1 516 450V220A29.5 29.5 0 0 0 457 220V292A28 28 0 0 1 429 320H408A28 28 0 0 1 380 292V220A30 30 0 0 0 320 220V372A28 28 0 0 1 292 400H271A28 28 0 0 1 243 372V140A30 30 0 0 1 273 110Z"/>
+      <path d="M668 327C690 327 708 338 718 352C708 367 690 378 668 378A14 14 0 0 1 654 364V341A14 14 0 0 1 668 327Z"/>
+    </symbol>
+  </svg>
+
+  <a class="skip" href="#ieva" data-i18n="skip">Pereiti prie darbų</a>
+
   <header class="site-header">
-    <a class="brand" href="#top">Eva Miodišauskaitė</a>
-    <nav class="nav" aria-label="Pagrindinė navigacija">
-      <a href="#apie">Apie</a><a href="#video">Video</a><a href="#vizualai">Vizualai</a><a href="#logo">Logotipai</a><a href="#kontaktai">Kontaktai</a><button class="lang-toggle" type="button" aria-label="Switch language">EN</button>
+    <a class="brand" href="#top" aria-label="Eva Miodišauskaitė">
+      <svg class="brand-mark" aria-hidden="true"><use href="#mc"/></svg>
+      <span>Eva Miodišauskaitė</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Pagrindinė navigacija">
+      <a href="#ieva">IEVA &amp; CO</a>
+      <a href="#logotipai" data-i18n="navIdentity">Logotipai</a>
+      <a href="#darbai" data-i18n="navPosters">Plakatai</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#video" data-i18n="navVideo">Video</a>
+      <a href="#apie" data-i18n="navAbout">Apie</a>
+      <a href="#kontaktai" data-i18n="navContact">Kontaktai</a>
     </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" type="button" aria-label="Switch language">EN</button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Meniu"><span></span><span></span></button>
+    </div>
   </header>
 
   <main id="top">
+    <!-- HERO -->
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Multimedija · video montažas · grafinis dizainas</p>
-        <h1>Eva Miodišauskaitė</h1>
-        <p class="intro">Studijuoju multimediją ir kompiuterinį dizainą Vilniaus Gedimino technikos universitete. Portfolio pristatau filmų, video montažo, grafinių vizualų, logotipų ir maketavimo darbus.</p>
-        <div class="hero-actions"><a class="button primary" href="#video">Video darbai</a><a class="button secondary" href="#vizualai">Grafiniai darbai</a></div>
-      </div>
-      <figure class="hero-media"><img src="assets/kur-baigiasi-horizontas-poster.jpeg" alt="Filmo Kur baigiasi horizontas plakatas"></figure>
-    </section>
-
-    <section class="section about" id="apie">
-      <div class="section-heading"><p class="eyebrow">Apie mane</p><h2>Multimedijos ir kompiuterinio dizaino studentė</h2></div>
-      <div class="about-grid">
-        <p>Domiuosi video kūrimu, montažu, grafiniu dizainu, vizualine komunikacija ir turinio paruošimu skirtingiems formatams.</p>
-        <p>Dirbu su „DaVinci Resolve“, „CapCut“, „Photoshop“, „Illustrator“, „InDesign“, „After Effects“ ir „Blender“.</p>
-        <p>Filmų projektuose išbandžiau operatorės, montuotojos ir garso režisierės roles. Ši patirtis padėjo geriau suprasti kadro, ritmo, garso ir montažo svarbą.</p>
-      </div>
-    </section>
-
-    <section class="section" id="video">
-      <div class="section-heading compact"><p class="eyebrow">Filmai ir video montažas</p><h2>Video darbai</h2></div>
-      <div class="video-projects">
-        <article class="video-project">
-          <div class="drive-mobile" id="drive-mobile-horizontas"><iframe id="drive-horizontas" src="https://drive.google.com/file/d/1dWMciYjXrYY5sVAXNd_jj1G7kaTzsxUB/preview" allow="autoplay; fullscreen" allowfullscreen></iframe></div><div class="project-info"><p class="project-type">Trumpametražis filmas · operatorė</p><h3>Kur baigiasi horizontas</h3><p>Konkursinis filmas, dalyvavęs „Kino kovose“ ir rodytas kino teatre. Šiame projekte buvau operatorė.</p><div class="drive-actions"><button class="button primary drive-switch active" type="button" data-target="drive-horizontas" data-src="https://drive.google.com/file/d/1dWMciYjXrYY5sVAXNd_jj1G7kaTzsxUB/preview">Žiūrėti filmą</button><button class="button secondary drive-switch" type="button" data-target="drive-horizontas" data-src="https://drive.google.com/file/d/12KRqqjJZ-kxLmqOonauHJouBog7FHM4r/preview">Žiūrėti trailerį</button><button class="button secondary drive-switch" type="button" data-target="drive-horizontas" data-src="https://drive.google.com/file/d/11r5j_GcyPlNeuX-hF_5CzCZZMavPC7mh/preview">Behind the scenes</button></div></div>
-        </article>
-        <article class="video-project">
-          <div class="drive-mobile" id="drive-mobile-jis"><iframe id="drive-jis" src="https://drive.google.com/file/d/1C0UYZM9IXOpqWxFcG7Api08oOPkwF_Tr/preview" allow="autoplay; fullscreen" allowfullscreen></iframe></div><div class="project-info"><p class="project-type">Trumpametražis filmas · montažas ir garsas</p><h3>Ir tada buvo jis</h3><p>Šį filmą montavau ir dirbau su garso režisūra. Daugiausia dėmesio skyriau montažo ritmui, nuotaikai ir sklandžiam emociniam pasakojimui.</p><div class="drive-actions"><button class="button primary drive-switch active" type="button" data-target="drive-jis" data-src="https://drive.google.com/file/d/1C0UYZM9IXOpqWxFcG7Api08oOPkwF_Tr/preview">Žiūrėti filmą</button><button class="button secondary drive-switch" type="button" data-target="drive-jis" data-src="https://drive.google.com/file/d/1dR4kyBexLj9-9rEXqy2FdIVgXlTWbQhH/preview">Žiūrėti trailerį</button><a class="button secondary drive-canva-jis" href="https://canva.link/mnu8k1ggyohhv0w" target="_blank" rel="noreferrer">Canva plakatas</a></div></div>
-        </article>
-        <article class="video-project">
-          <div class="drive-mobile" id="drive-mobile-vl"><iframe id="drive-vl" src="https://drive.google.com/file/d/19coI6hb_edYD5HkNZSRdeRTp71fdYYvl/preview" allow="autoplay; fullscreen" allowfullscreen></iframe></div><div class="project-info"><p class="project-type">After Effects · video render</p><h3>VL video</h3><p>Video render darbas, kuriame matomas judesys, kompozicija ir vizualinio ritmo kūrimas. Redaguojamų projekto failų svetainėje nedalinu.</p><div class="drive-actions"><button class="button primary drive-switch active" type="button" data-target="drive-vl" data-src="https://drive.google.com/file/d/19coI6hb_edYD5HkNZSRdeRTp71fdYYvl/preview">Žiūrėti animaciją</button></div></div>
-        </article>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <h1 class="hero-title"><span>Eva</span> <span>Miodišauskaitė</span></h1>
+        <div class="hero-row">
+          <div class="hero-copy">
+            <p class="hero-lead" data-i18n="heroLead">Grafinė dizainerė ir video kūrėja. Kuriu prekių ženklų identitetus, plakatus ir trumpametražius filmus.</p>
+            <div class="hero-actions">
+              <a class="btn btn-solid" href="#ieva"><span data-i18n="heroCta">Žiūrėti darbus</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              <a class="btn btn-ghost" href="#kontaktai" data-i18n="heroContact">Susisiekti</a>
+            </div>
+            <p class="hero-status"><span class="dot" aria-hidden="true"></span><span data-i18n="heroStatus">Atvira praktikai ir kūrybiniams projektams</span></p>
+          </div>
+          <div class="fan" aria-label="Atrinkti plakatai">
+            <a class="fan-card" href="#darbai" style="--r:-9deg;--y:18px;--i:0"><img src="assets/opt/fearless-poster.jpg" alt="Plakatas „Fearless“" width="1054" height="1492"></a>
+            <a class="fan-card" href="#video" style="--r:-3deg;--y:-14px;--i:1"><img src="assets/opt/ir-tada-buvo-jis.jpg" alt="Filmo „Ir tada buvo jis“ plakatas" width="1060" height="1500"></a>
+            <a class="fan-card" href="#video" style="--r:4deg;--y:8px;--i:2"><img src="assets/opt/kur-baigiasi-horizontas-poster.jpg" alt="Filmo „Kur baigiasi horizontas“ plakatas" width="1061" height="1500"></a>
+            <a class="fan-card" href="#instagram" style="--r:10deg;--y:-6px;--i:3"><img src="assets/viloga/post-sakuru-pavasaris.jpg" alt="Viloga Instagram įrašas „Sakurų pavasaris“" width="1080" height="1350"></a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section skills"><div class="section-heading"><p class="eyebrow">Įgūdžiai</p><h2>Programos ir darbo sritys</h2></div><div class="skill-grid"><article><h3>Video montažas</h3><p>Trumpų ir ilgesnių video montažas, ritmas, garso ir vaizdo suderinimas.</p><span>CapCut · DaVinci Resolve</span></article><article><h3>Grafinis dizainas</h3><p>Posteriai, reklaminiai vizualai, produktų kompozicijos ir skaitmeniniai maketai.</p><span>Photoshop · Canva · Illustrator</span></article><article><h3>Logotipai ir identitetas</h3><p>Logotipo idėjos, spalvų kryptys, moodboard'ai ir vizualinio stiliaus paieška.</p><span>Illustrator · InDesign</span></article><article><h3>Motion ir 3D</h3><p>Bazinė animacija, vizualiniai efektai ir 3D objektų kūrimo praktika.</p><span>After Effects · Blender</span></article></div></section>
-
-    <section class="section" id="vizualai"><div class="section-heading compact"><p class="eyebrow">Grafinis dizainas</p><h2>Posteriai ir vizualai</h2></div><div class="project-grid"><article class="project-card"><img src="assets/nescafe-poster.png" alt="Nescafe reklaminis posteris"><div class="card-copy"><p class="project-type">Reklaminis posteris</p><h3>Nescafe posteris</h3><p>Produkto reklaminis vizualas, kuriame derinama kompozicija, spalva ir aiškus produkto akcentas.</p><a href="https://canva.link/b2biojv9tg2p3dr" target="_blank" rel="noreferrer">Peržiūrėti Canva</a></div></article><article class="project-card"><img src="assets/kvepalai.png" alt="Kvepalų reklaminis posteris"><div class="card-copy"><p class="project-type">Reklaminis posteris</p><h3>Kvepalai</h3><p>Produkto pristatymas, kuriame svarbi šviesa, kompozicija ir vizualinė nuotaika.</p><a href="https://canva.link/02pwt149tu3gb14" target="_blank" rel="noreferrer">Peržiūrėti Canva</a></div></article><article class="project-card"><img src="assets/monika-poster.png" alt="Portretinis Monikos posteris"><div class="card-copy"><p class="project-type">Portretinis posteris</p><h3>Monika</h3><p>Portretinis posteris apie dėstytoją, kuriame svarbi informacijos hierarchija ir vizualinis charakteris.</p><a href="https://canva.link/43qa02id0qhg5ub" target="_blank" rel="noreferrer">Peržiūrėti Canva</a></div></article><article class="project-card"><img src="assets/kava.jpg" alt="Kavos projekto posteris"><div class="card-copy"><p class="project-type">Produkto vizualas</p><h3>Kava</h3><p>Kavos prekės ženklo vizualinė kryptis: spalvos, pakuotės estetika ir produkto pateikimas.</p></div></article><article class="project-card"><img src="assets/nescafe-product-photo.jpeg" alt="Nescafe produkto nuotrauka su kavos pupelėmis"><div class="card-copy"><p class="project-type">Produkto turinys</p><h3>Nescafe foto</h3><p>Produkto nuotrauka, pritaikoma reklamos, posterio ar skaitmeninio maketo kūrimui.</p></div></article><article class="project-card"><img src="assets/moodboard.jpeg" alt="Moodboard vizualinė kryptis"><div class="card-copy"><p class="project-type">Moodboard</p><h3>Vizualinė kryptis</h3><p>Nuotaikos, spalvų ir stiliaus paieška prieš kuriant galutinį dizaino sprendimą.</p></div></article><article class="project-card"><img src="assets/monika-2.png" alt="Performance Monika Dirsyte posteris"><div class="card-copy"><p class="project-type">Posterio dizainas</p><h3>Performance</h3><p>Eksperimentinis posteris, kuriame derinama judesio nuotaika, tipografija ir stiprus vizualinis centras.</p></div></article></div></section>
-
-    <section class="section logo-section" id="logo">
-      <div class="section-heading compact">
-        <p class="eyebrow">Logotipai</p>
-        <h2>Logotipo ir identiteto darbai</h2>
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span data-i18n="mq1">Identitetas</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq2">Plakatai</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq3">Video montažas</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq4">Motion</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq5">Maketavimas</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq1">Identitetas</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq2">Plakatai</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq3">Video montažas</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq4">Motion</span><svg><use href="#mc"/></svg>
+        <span data-i18n="mq5">Maketavimas</span><svg><use href="#mc"/></svg>
       </div>
+    </div>
 
-      <article class="brand-case">
-        <div class="brand-case-hero">
-          <div class="brand-case-copy">
-            <p class="project-type lunara-type">Grožio prekės ženklo identitetas</p>
-            <h3 class="lunara-title">Lunara Skin</h3>
-            <p class="lunara-intro">Subtilus odos priežiūros prekės ženklas, kuriam sukūriau logotipą, spalvų sistemą ir vizualinę kryptį. Identitetas jungia natūralumą, ramybę ir šiuolaikišką prabangą.</p>
-            <dl class="brand-meta">
-              <div><dt class="lunara-role-label">Mano vaidmuo</dt><dd class="lunara-role">Logotipo ir vizualinio identiteto kūrimas</dd></div>
-              <div><dt class="lunara-tools-label">Naudotos programos</dt><dd>Illustrator · Photoshop</dd></div>
+    <!-- PRACTICE: IEVA & CO -->
+    <section class="section" id="ieva">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>IEVA &amp; CO</h2>
+          <p data-i18n="prHeadingText">Atrankos testinė užduotis, kurią atlikau kandidatuodama į darbą įmonėje IEVA &amp; CO: vizitinė kortelė ir Instagram įrašas pagal jų logotipą ir prekės ženklo gaires.</p>
+        </div>
+
+        <article class="case">
+          <div class="case-hero reveal">
+            <figure class="case-cover"><img src="assets/praktika/ieva-mockup-1.jpg" alt="IEVA &amp; CO vizitinių kortelių vizualizacija" width="1500" height="1000" loading="lazy"></figure>
+            <div class="case-intro">
+              <p class="tag" data-i18n="prType">Atrankos užduotis · IEVA &amp; CO</p>
+              <h3 class="case-title" data-i18n="prTitle">Vizitinė kortelė</h3>
+              <p class="case-lead" data-i18n="prIntro">IEVA &amp; CO yra prekybos ir distribucijos įmonė, veikianti nuo 1996 metų. Gavau jų logotipą ir spalvų paletę, o mano užduotis buvo sukurti vizitinę kortelę ir įrašą Instagram.</p>
+              <dl class="case-meta">
+                <div><dt data-i18n="prRoleLabel">Mano vaidmuo</dt><dd data-i18n="prRole">Vizitinės kortelės ir Instagram įrašo dizainas</dd></div>
+                <div><dt data-i18n="prPrintLabel">Rezultatas</dt><dd data-i18n="prPrint">Dvi kortelės versijos, paruoštos spaudai CMYK formatu</dd></div>
+              </dl>
+            </div>
+          </div>
+
+          <div class="case-split reveal">
+            <h4 data-i18n="prCardTitle">Dizaino idėja</h4>
+            <div class="case-cols">
+              <p data-i18n="prCard1">Priekinei pusei parinkau oranžinį foną su balta logotipo versija. Oranžinė yra šilta ir iškart patraukia akį, be to, ji jau yra logotipo paletėje. Fono gradiento bangą sukūriau pagal rodyklę logotipo raidėse „a“ ir „v“, todėl fonas susijęs su ženklu ir neatrodo plokščias.</p>
+              <p data-i18n="prCard2">Galinėje pusėje šalia kontaktų pakartojau tą pačią rodyklę iš raidės „v“, tik kaip atskirą ženklą kortelės kampe. Net nematydamas viso logotipo žmogus ją susieja su įmone, todėl kortelę lengviau atpažinti ir prisiminti.</p>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="cards-pair reveal">
+              <p class="cards-label" data-i18n="prVersion1">Pirmas variantas</p>
+              <figure><img src="assets/praktika/ieva-card-1-front.jpg" alt="Pirmo varianto priekinė pusė: oranžinis fonas su balta logotipo versija" width="1134" height="662" loading="lazy"></figure>
+              <figure><img src="assets/praktika/ieva-card-1-back.jpg" alt="Pirmo varianto galinė pusė: šviesus fonas su oranžiniais kontaktais" width="1134" height="662" loading="lazy"></figure>
+            </div>
+            <div class="cards-pair reveal">
+              <p class="cards-label" data-i18n="prVersion2">Antras variantas</p>
+              <figure><img src="assets/praktika/ieva-card-2-front.jpg" alt="Antro varianto priekinė pusė: šviesus fonas su spalvotu logotipu" width="1134" height="662" loading="lazy"></figure>
+              <figure><img src="assets/praktika/ieva-card-2-back.jpg" alt="Antro varianto galinė pusė: oranžinis fonas su baltais kontaktais" width="1134" height="662" loading="lazy"></figure>
+            </div>
+          </div>
+
+          <figure class="case-wide reveal"><img src="assets/praktika/ieva-mockup-2.jpg" alt="IEVA &amp; CO vizitinės kortelės abiejų pusių vizualizacija" width="1500" height="1000" loading="lazy"></figure>
+        </article>
+      </div>
+    </section>
+
+    <!-- LOGOS: index + Lunara + Viloga -->
+    <section class="section" id="logotipai">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="caseHeading">Logotipai</h2>
+          <p data-i18n="caseHeadingText">Du prekės ženklai, kuriems sukūriau logotipą, spalvas ir pritaikymą tikruose formatuose. Pasirink, kurį nori pamatyti.</p>
+        </div>
+
+        <nav class="logo-index" aria-label="Logotipai">
+          <a class="logo-card2 reveal" href="#lunara" style="--tile:#9aaabb">
+            <span class="logo-card2-art"><img src="assets/opt/lunara-logo-tile.png" alt="" width="889" height="798" loading="lazy"></span>
+            <span class="logo-card2-info">
+              <span class="logo-card2-name">Lunara Skin</span>
+              <span class="logo-card2-type" data-i18n="idxLunara">Odos priežiūros prekės ženklas</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            </span>
+          </a>
+          <a class="logo-card2 reveal" href="#viloga" style="--tile:#183c32">
+            <span class="logo-card2-art"><img src="assets/viloga/viloga-logo-on-green.jpg" alt="" width="1200" height="1200" loading="lazy"></span>
+            <span class="logo-card2-info">
+              <span class="logo-card2-name">Viloga</span>
+              <span class="logo-card2-type" data-i18n="idxViloga">Paveikslų galerija</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+        <article class="case" id="lunara">
+          <div class="stage reveal">
+            <div class="stage-moon" aria-hidden="true"></div>
+            <p class="stage-word" aria-hidden="true">Lunara</p>
+            <div class="stage-set">
+              <img class="stage-products" src="assets/opt/lunara-products-cut.webp?v=2" alt="Lunara Skin produktų linija ant akmens: serumas, kremas, prausiklis ir tonikas" width="1433" height="896" loading="lazy">
+            </div>
+          </div>
+
+          <div class="stage-info reveal">
+            <div>
+              <p class="tag" data-i18n="lunaraType">Grožio prekės ženklo identitetas</p>
+              <h3 class="case-title">Lunara Skin</h3>
+              <p class="case-lead" data-i18n="lunaraIntro">Odos priežiūros prekės ženklas, kuriam sukūriau logotipą, spalvų sistemą ir vizualinę kryptį. Identitetas ramus ir natūralus, bet atrodo šiuolaikiškai ir prabangiai.</p>
+            </div>
+            <dl class="case-meta">
+              <div><dt data-i18n="lunaraRoleLabel">Mano vaidmuo</dt><dd data-i18n="lunaraRole">Logotipo ir vizualinio identiteto kūrimas</dd></div>
+              <div><dt data-i18n="lunaraToolsLabel">Naudotos programos</dt><dd>Illustrator · Photoshop</dd></div>
             </dl>
           </div>
-          <figure class="brand-case-mark"><img src="assets/lunara-logo-blue-bg.png" alt="Lunara Skin logotipas mėlyname fone"></figure>
-        </div>
 
-        <div class="brand-story">
-          <div>
-            <p class="eyebrow lunara-concept-eyebrow">Koncepcija</p>
-            <h3 class="lunara-concept-title">Nuo idėjos iki ženklo</h3>
+          <div class="case-split reveal">
+            <h4 data-i18n="lunaraConceptTitle">Nuo idėjos iki ženklo</h4>
+            <div class="case-cols">
+              <p data-i18n="lunaraConcept1">Pavadinimas „Lunara“ siejasi su mėnuliu, natūraliais ciklais ir vakaro ramybe, todėl ženklui parinkau švelnią ir subalansuotą formą, kurią lengva atpažinti.</p>
+              <p data-i18n="lunaraConcept2">Simbolyje susijungia lašas, lapas ir mėnulio pjautuvas. Lašas čia reiškia drėkinimą, lapas rodo natūralią sudėtį, o mėnulis primena odos atsinaujinimą ir kasdienį priežiūros ritualą.</p>
+            </div>
           </div>
-          <div class="brand-story-copy">
-            <p class="lunara-concept-1">„Lunara“ pavadinimas siejasi su mėnuliu, natūraliais ciklais ir vakaro ramybe. Dėl to ženklui pasirinkta švelni, subalansuota ir lengvai atpažįstama forma.</p>
-            <p class="lunara-concept-2">Simbolyje susijungia lašas, lapas ir mėnulio pjautuvas. Lašas perteikia drėkinimą, lapas – natūralią sudėtį, o mėnulis – odos atsinaujinimą ir kasdienį priežiūros ritualą.</p>
-          </div>
-        </div>
 
-        <div class="logo-versions" aria-label="Lunara Skin logotipo versijos">
-          <figure class="logo-version logo-version-light"><img src="assets/lunara-logo-black.png" alt="Juoda Lunara Skin logotipo versija"></figure>
-          <figure class="logo-version logo-version-light"><img src="assets/lunara-logo-sand-letters.png" alt="Smėlio spalvos Lunara Skin logotipo versija"></figure>
-          <figure class="logo-version logo-version-light"><img src="assets/lunara-logo-blue.png" alt="Melsva Lunara Skin logotipo versija"></figure>
-          <figure class="logo-version logo-version-dark"><img src="assets/lunara-logo-black-bg.png" alt="Balta Lunara Skin logotipo versija juodame fone"></figure>
-          <figure class="logo-version logo-version-sand"><img src="assets/lunara-logo-sand-bg.png" alt="Balta Lunara Skin logotipo versija smėlio fone"></figure>
-          <figure class="logo-version logo-version-blue"><img src="assets/lunara-logo-blue-bg.png" alt="Balta Lunara Skin logotipo versija mėlyname fone"></figure>
-        </div>
+          <div class="versions reveal" aria-label="Lunara Skin logotipo versijos">
+            <figure class="v-light"><img src="assets/lunara-logo-black.png" alt="Juoda Lunara Skin logotipo versija" width="500" height="580" loading="lazy"></figure>
+            <figure class="v-light"><img src="assets/lunara-logo-sand-letters.png" alt="Smėlio spalvos Lunara Skin logotipo versija" width="501" height="580" loading="lazy"></figure>
+            <figure class="v-light"><img src="assets/lunara-logo-blue.png" alt="Melsva Lunara Skin logotipo versija" width="501" height="580" loading="lazy"></figure>
+            <figure class="v-dark"><img src="assets/lunara-logo-black-bg.png" alt="Balta Lunara Skin logotipo versija juodame fone" width="874" height="807" loading="lazy"></figure>
+            <figure class="v-sand"><img src="assets/lunara-logo-sand-bg.png" alt="Balta Lunara Skin logotipo versija smėlio fone" width="819" height="808" loading="lazy"></figure>
+            <figure class="v-blue"><img src="assets/lunara-logo-blue-bg.png" alt="Balta Lunara Skin logotipo versija mėlyname fone" width="899" height="808" loading="lazy"></figure>
+          </div>
 
-        <div class="brand-system">
-          <div>
-            <p class="eyebrow lunara-system-eyebrow">Vizualinė sistema</p>
-            <h3 class="lunara-system-title">Rami ir natūrali spalvų kryptis</h3>
-            <p class="lunara-system-text">Smėlio ir šilti balti tonai kuria švaros bei natūralumo pojūtį. Prislopinta melsva spalva suteikia patikimumo, gaivos ir išskirtinumo, o juoda užtikrina aiškų ženklo naudojimą skirtinguose formatuose.</p>
+          <div class="case-split reveal">
+            <h4 data-i18n="lunaraSystemTitle">Rami ir natūrali spalvų kryptis</h4>
+            <div>
+              <p data-i18n="lunaraSystemText">Smėlio ir šilti balti tonai atrodo švariai ir natūraliai. Prislopinta melsva prideda gaivos ir patikimumo, be to, išskiria ženklą iš kitų. Juoda reikalinga tam, kad logotipas būtų aiškiai matomas bet kokiame formate.</p>
+              <div class="palette" aria-label="Lunara Skin spalvų paletė">
+                <div style="--c:#f4f0ea;--t:#202124"><span>#F4F0EA</span></div>
+                <div style="--c:#d8d1ca;--t:#202124"><span>#D8D1CA</span></div>
+                <div style="--c:#9cadc1;--t:#202124"><span>#9CADC1</span></div>
+                <div style="--c:#080a0a;--t:#f4f0ea"><span>#080A0A</span></div>
+              </div>
+            </div>
           </div>
-          <div class="color-palette" aria-label="Lunara Skin spalvų paletė">
-            <div class="color-swatch color-ivory"><span>#F4F0EA</span></div>
-            <div class="color-swatch color-sand"><span>#D8D1CA</span></div>
-            <div class="color-swatch color-blue"><span>#9CADC1</span></div>
-            <div class="color-swatch color-black"><span>#080A0A</span></div>
-          </div>
-        </div>
 
-        <div class="brand-applications">
-          <div class="brand-applications-heading">
-            <p class="eyebrow lunara-application-eyebrow">Pritaikymas</p>
-            <h3 class="lunara-application-title">Identitetas realiuose formatuose</h3>
-            <p class="lunara-application-text">Logotipo sistema išbandyta ant kosmetikos pakuočių, produkto etikečių, vizitinių kortelių ir pirkinių maišelio. Tai parodo, kad ženklas išlieka atpažįstamas tiek mažame, tiek dideliame formate.</p>
+          <div class="case-split reveal">
+            <h4 data-i18n="lunaraApplicationTitle">Identitetas realiuose formatuose</h4>
+            <p data-i18n="lunaraApplicationText">Logotipą išbandžiau ant kosmetikos pakuočių, produkto etikečių, vizitinių kortelių ir pirkinių maišelio. Ženklas lieka atpažįstamas ir mažame, ir dideliame formate.</p>
           </div>
-          <div class="application-gallery">
-            <figure class="application-wide"><img src="assets/lunara-product-line.png" alt="Lunara Skin kosmetikos produktų linija"></figure>
-            <figure class="application-tall"><img src="assets/lunara-serum.png" alt="Lunara Skin drėkinamojo serumo pakuotė"></figure>
-            <figure><img src="assets/lunara-shopping-bag.png" alt="Lunara Skin logotipas ant pirkinių maišelio"></figure>
-            <figure><img src="assets/lunara-business-cards.png" alt="Lunara Skin vizitinių kortelių dizainas"></figure>
-            <figure class="application-wide application-embossed"><img src="assets/lunara-embossed-logo.png" alt="Reljefinis Lunara Skin logotipo pritaikymas"></figure>
-          </div>
-        </div>
-      </article>
 
-      <div class="other-logos-heading">
-        <p class="eyebrow other-logos-eyebrow">Kiti logotipai</p>
-        <h3 class="other-logos-title">Papildomi identiteto darbai</h3>
-      </div>
-      <div class="logo-grid">
-        <article class="logo-card"><img src="assets/ritmo.png" alt="Ritmo universiteto logotipas"><div><p class="project-type">Universiteto logotipo idėja</p><h3>Ritmo</h3><p>Švari forma, judesio pojūtis ir lengvai atpažįstamas ženklas.</p><a href="https://canva.link/cdpz0ksrw0wuw81" target="_blank" rel="noreferrer">Peržiūrėti Canva</a></div></article>
-        <article class="logo-card"><img src="assets/kava-logo.png" alt="Kavos logotipo dizainas"><div><p class="project-type">Produkto identitetas</p><h3>Kava logo</h3><p>Minimalus logotipo sprendimas, tinkamas pakuotei ir produkto komunikacijai.</p></div></article>
+          <div class="bento">
+            <figure class="b-tall reveal"><img src="assets/opt/lunara-serum.jpg" alt="Lunara Skin drėkinamojo serumo pakuotė" width="1000" height="1500" loading="lazy"></figure>
+            <figure class="reveal"><img src="assets/opt/lunara-shopping-bag.jpg" alt="Lunara Skin logotipas ant pirkinių maišelio" width="1402" height="1122" loading="lazy"></figure>
+            <figure class="reveal"><img src="assets/opt/lunara-business-cards.jpg" alt="Lunara Skin vizitinių kortelių dizainas" width="1402" height="1122" loading="lazy"></figure>
+            <figure class="b-wide reveal"><img src="assets/opt/lunara-embossed-logo.jpg" alt="Reljefinis Lunara Skin logotipo pritaikymas" width="1500" height="1000" loading="lazy"></figure>
+          </div>
+        </article>
+
+        <article class="viloga" id="viloga">
+          <div class="viloga-hero reveal">
+            <figure class="viloga-mark"><img src="assets/viloga/viloga-logo-cream.png" alt="Viloga logotipas" width="1352" height="1392" loading="lazy"></figure>
+            <div class="viloga-intro">
+              <p class="tag" data-i18n="vilogaType">Paveikslų galerijos identitetas</p>
+              <h3 class="case-title">Viloga</h3>
+              <p class="case-lead" data-i18n="vilogaIntro">Viloga yra paveikslų ir fotoreprodukcijų galerija Vilniuje. Sukūriau jai logotipą ir pritaikiau jį vizitinėms kortelėms, maišeliams ir iškabai, o galerijos Instagram paskyrai sukūriau įrašų seriją.</p>
+              <dl class="case-meta">
+                <div><dt data-i18n="vilogaRoleLabel">Mano vaidmuo</dt><dd data-i18n="vilogaRole">Logotipas, jo pritaikymas ir Instagram įrašai</dd></div>
+              </dl>
+            </div>
+          </div>
+
+          <div class="case-split reveal">
+            <h4 data-i18n="vilogaIdeaTitle">Ženklo idėja</h4>
+            <div>
+              <p data-i18n="vilogaIdea">Ženklą sudaro trys lapo formos, iš kurių susidėlioja raidės V ir L. Logotipas turi dvi spalvas, tamsiai žalią ir kreminę. Jos gali keistis vietomis, todėl ženklas vienodai gerai atrodo ir šviesiame, ir tamsiame fone.</p>
+              <div class="palette palette-2" aria-label="Viloga spalvų paletė">
+                <div style="--c:#183c32;--t:#f8f2e2"><span>#183C32</span></div>
+                <div style="--c:#f8f2e2;--t:#183c32"><span>#F8F2E2</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="viloga-versions" aria-label="Viloga logotipo versijos">
+            <figure class="reveal"><img src="assets/viloga/viloga-logo-on-green.jpg" alt="Kreminis Viloga logotipas žaliame fone" width="1200" height="1200" loading="lazy"></figure>
+            <figure class="reveal"><img src="assets/viloga/viloga-logo-on-cream.jpg" alt="Žalias Viloga logotipas kreminiame fone" width="1200" height="1200" loading="lazy"></figure>
+            <figure class="viloga-mono reveal"><img src="assets/viloga/viloga-logo-black.png" alt="Juoda Viloga logotipo versija" width="1352" height="1392" loading="lazy"></figure>
+          </div>
+
+          <div class="viloga-gallery">
+            <figure class="vg-wide reveal"><img src="assets/viloga/viloga-sign.jpg" alt="Viloga iškaba ant pastato sienos" width="1456" height="1088" loading="lazy"></figure>
+            <figure class="vg-narrow reveal"><img src="assets/viloga/viloga-tote.jpg" alt="Žalias medžiaginis maišelis su Viloga logotipu" width="1136" height="1408" loading="lazy"></figure>
+            <figure class="vg-narrow reveal"><img src="assets/viloga/viloga-bag.jpg" alt="Kreminis popierinis maišelis su Viloga logotipu" width="1136" height="1408" loading="lazy"></figure>
+            <figure class="vg-wide reveal"><img src="assets/viloga/viloga-cards.jpg" alt="Žalios ir kreminės Viloga vizitinės kortelės" width="1536" height="1024" loading="lazy"></figure>
+          </div>
+        </article>
       </div>
     </section>
-    <section class="section contact" id="kontaktai"><div><p class="eyebrow">Kontaktai</p><h2>Susisiekime</h2></div><div class="contact-box"><p>Esu atvira praktikos, kūrybinių projektų ar bendradarbiavimo pasiūlymams.</p><button class="button primary copy-email" type="button" data-copy="miodisauskaite@gmail.com">miodisauskaite@gmail.com</button><button class="phone-link copy-phone" type="button" data-copy="+37062736341">+370 627 36341</button><span class="copy-status" aria-live="polite"></span></div></section>
+
+    <!-- POSTERS -->
+    <section class="section section-glow" id="darbai">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="worksHeading">Plakatai ir vizualai</h2>
+          <p data-i18n="worksText">Reklaminiai plakatai, filmų afišos, iliustracija ir produkto fotografija. Paspausk darbą, kad pamatytum jį visą.</p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Darbų filtras">
+          <button class="chip active" type="button" data-filter="all" data-i18n="fAll">Visi</button>
+          <button class="chip" type="button" data-filter="plakatas" data-i18n="fPoster">Plakatai</button>
+          <button class="chip" type="button" data-filter="reklama" data-i18n="fAd">Reklama</button>
+          <button class="chip" type="button" data-filter="kinas" data-i18n="fFilm">Kinas</button>
+          <button class="chip" type="button" data-filter="kita" data-i18n="fOther">Foto ir iliustracija</button>
+        </div>
+
+        <div class="works">
+          <figure class="work reveal" data-cat="plakatas" data-full="assets/opt/fearless-poster.jpg">
+            <button type="button" class="work-open"><img src="assets/opt/fearless-poster.jpg" alt="Portretinis plakatas „Fearless“" width="1054" height="1492" loading="lazy"></button>
+            <figcaption><h3>Fearless</h3><p class="tag" data-i18n="w1Type">Portretinis plakatas</p><p class="work-desc" data-i18n="w1Text">Portretinis plakatas apie Moniką Dirsytę. Daugiausia dirbau su informacijos hierarchija ir plakato charakteriu.</p></figcaption>
+          </figure>
+          <figure class="work reveal" data-cat="reklama" data-full="assets/kvepalai.png">
+            <button type="button" class="work-open"><img src="assets/opt/kvepalai.jpg" alt="Kvepalų reklaminis plakatas" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="w2Title">Kvepalai</h3><p class="tag" data-i18n="w2Type">Reklaminis plakatas</p><p class="work-desc" data-i18n="w2Text">Kvepalų reklaminis plakatas. Nuotaiką čia kuria šviesa ir kompozicija.</p></figcaption>
+          </figure>
+          <figure class="work reveal" data-cat="kinas" data-full="assets/kur-baigiasi-horizontas-poster.jpeg">
+            <button type="button" class="work-open"><img src="assets/opt/kur-baigiasi-horizontas-poster.jpg" alt="Filmo „Kur baigiasi horizontas“ plakatas" width="1061" height="1500" loading="lazy"></button>
+            <figcaption><h3 data-i18n="w3Title">Kur baigiasi horizontas</h3><p class="tag" data-i18n="w3Type">Filmo plakatas</p><p class="work-desc" data-i18n="w3Text">Trumpametražio filmo, kuriame buvau operatorė, plakatas.</p></figcaption>
+          </figure>
+          <figure class="work reveal" data-cat="reklama" data-full="assets/nescafe-poster.png">
+            <button type="button" class="work-open"><img src="assets/opt/nescafe-poster.jpg" alt="Nescafé reklaminis plakatas" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3>Nescafé</h3><p class="tag" data-i18n="w4Type">Reklaminis plakatas</p><p class="work-desc" data-i18n="w4Text">Reklaminis vizualas, kuriame kompozicija ir spalva nukreipia žvilgsnį į produktą.</p></figcaption>
+          </figure>
+          <figure class="work reveal" data-cat="plakatas" data-full="assets/monika-2.png">
+            <button type="button" class="work-open"><img src="assets/monika-2.png" alt="Plakatas „Performance“" width="477" height="674" loading="lazy"></button>
+            <figcaption><h3>Performance</h3><p class="tag" data-i18n="w5Type">Eksperimentinis plakatas</p><p class="work-desc" data-i18n="w5Text">Eksperimentinis plakatas su stipriu centru. Judesio nuotaiką bandžiau perteikti ir vaizdu, ir tipografija.</p></figcaption>
+          </figure>
+          <figure class="work reveal" data-cat="kinas" data-full="assets/ir-tada-buvo-jis.png">
+            <button type="button" class="work-open"><img src="assets/opt/ir-tada-buvo-jis.jpg" alt="Filmo „Ir tada buvo jis“ plakatas" width="1060" height="1500" loading="lazy"></button>
+            <figcaption><h3 data-i18n="w7Title">Ir tada buvo jis</h3><p class="tag" data-i18n="w7Type">Filmo plakatas</p><p class="work-desc" data-i18n="w7Text">Trumpametražio filmo, kurį montavau, plakatas.</p></figcaption>
+          </figure>
+          <figure class="work reveal" data-cat="kita" data-full="assets/kava.jpg">
+            <button type="button" class="work-open"><img src="assets/opt/kava.jpg" alt="Iliustracija kavos tema" width="1165" height="1500" loading="lazy"></button>
+            <figcaption><h3 data-i18n="w8Title">Kava</h3><p class="tag" data-i18n="w8Type">Iliustracija</p><p class="work-desc" data-i18n="w8Text">Iliustracija kavos tema su ryškiomis spalvomis ir personažu.</p></figcaption>
+          </figure>
+          <figure class="work reveal" data-cat="kita" data-full="assets/nescafe-product-photo.jpeg">
+            <button type="button" class="work-open"><img src="assets/opt/nescafe-product-photo.jpg" alt="Nescafé produkto nuotrauka su kavos pupelėmis" width="844" height="1500" loading="lazy"></button>
+            <figcaption><h3 data-i18n="w9Title">Nescafé foto</h3><p class="tag" data-i18n="w9Type">Produkto fotografija</p><p class="work-desc" data-i18n="w9Text">Produkto nuotrauka, kurią galima naudoti reklamoje, plakate ar skaitmeniniame makete.</p></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="section section-panel" id="instagram">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Instagram</h2>
+          <p data-i18n="igText">Įrašai paveikslų galerijai Viloga ir įmonei IEVA &amp; CO. Kiekvienam Viloga įrašui parinkau kitą šriftą ir kompoziciją, kad jie tiktų prie paveikslo, bet visuose lieka pavadinimas, trumpas aprašymas ir svetainės adresas.</p>
+        </div>
+
+        <div class="ig-controls reveal">
+          <p class="ig-count"><span data-i18n="igCount">8 įrašai</span> · Viloga, IEVA &amp; CO</p>
+          <div class="ig-arrows">
+            <button class="ig-arrow" type="button" data-dir="-1" aria-label="Ankstesni įrašai"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+            <button class="ig-arrow" type="button" data-dir="1" aria-label="Kiti įrašai"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+
+        <div class="ig-track" tabindex="0" aria-label="Instagram įrašai">
+          <figure class="work ig-post reveal" data-full="assets/viloga/post-paveikslai-namams.jpg">
+            <button type="button" class="work-open"><img src="assets/viloga/post-paveikslai-namams.jpg" alt="Instagram įrašas „Paveikslai namams ir interjerui“" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="ig1Title">Paveikslai namams</h3><p class="tag">Viloga</p><p class="work-desc" data-i18n="ig1Text">Bendras galerijos įrašas su keliais darbais interjere ir spalvų palete.</p></figcaption>
+          </figure>
+          <figure class="work ig-post reveal" data-full="assets/viloga/post-audros-ramybe.jpg">
+            <button type="button" class="work-open"><img src="assets/viloga/post-audros-ramybe.jpg" alt="Instagram įrašas „Audros ramybė“" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="ig2Title">Audros ramybė</h3><p class="tag">Viloga</p><p class="work-desc" data-i18n="ig2Text">Juodai baltos fotoreprodukcijos įrašas, kuriame pavadinimas surinktas dideliu serifiniu šriftu per visą paveikslą.</p></figcaption>
+          </figure>
+          <figure class="work ig-post reveal" data-full="assets/viloga/post-sakuru-pavasaris.jpg">
+            <button type="button" class="work-open"><img src="assets/viloga/post-sakuru-pavasaris.jpg" alt="Instagram įrašas „Sakurų pavasaris“" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="ig3Title">Sakurų pavasaris</h3><p class="tag">Viloga</p><p class="work-desc" data-i18n="ig3Text">Penkių dalių paveikslas su žydinčia sakura, parodytas japoniško stiliaus kambaryje.</p></figcaption>
+          </figure>
+          <figure class="work ig-post reveal" data-full="assets/viloga/post-rozes-zavesys.jpg">
+            <button type="button" class="work-open"><img src="assets/viloga/post-rozes-zavesys.jpg" alt="Instagram įrašas „Rožės žavesys“" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="ig4Title">Rožės žavesys</h3><p class="tag">Viloga</p><p class="work-desc" data-i18n="ig4Text">Modulinio paveikslo su raudona rože reklama ir kvietimas rasti paveikslą savo namams.</p></figcaption>
+          </figure>
+          <figure class="work ig-post reveal" data-full="assets/viloga/post-raudona-klasika.jpg">
+            <button type="button" class="work-open"><img src="assets/viloga/post-raudona-klasika.jpg" alt="Instagram įrašas „Raudona klasika“" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="ig5Title">Raudona klasika</h3><p class="tag">Viloga</p><p class="work-desc" data-i18n="ig5Text">Fotoreprodukcijos su raudonu klasikiniu automobiliu įrašas retro stiliaus interjere.</p></figcaption>
+          </figure>
+          <figure class="work ig-post reveal" data-full="assets/viloga/post-kalnu-ramybe.jpg">
+            <button type="button" class="work-open"><img src="assets/viloga/post-kalnu-ramybe.jpg" alt="Instagram įrašas „Kalnų ramybė“" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="ig6Title">Kalnų ramybė</h3><p class="tag">Viloga</p><p class="work-desc" data-i18n="ig6Text">Keturių dalių kalnų peizažas su kaina, surinkta stambiu šriftu.</p></figcaption>
+          </figure>
+          <figure class="work ig-post reveal" data-full="assets/viloga/post-raktu-dezute.jpg">
+            <button type="button" class="work-open"><img src="assets/viloga/post-raktu-dezute.jpg" alt="Instagram įrašas „Raktų dėžutė“" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="ig7Title">Raktų dėžutė</h3><p class="tag">Viloga</p><p class="work-desc" data-i18n="ig7Text">Įrašas apie paveikslą, kuris kartu yra raktų dėžutė, su visa produkto informacija.</p></figcaption>
+          </figure>
+          <figure class="work ig-post reveal" data-full="assets/praktika/ieva-instagram-mockup.jpg">
+            <button type="button" class="work-open"><img src="assets/praktika/ieva-instagram-post.jpg" alt="IEVA &amp; CO Instagram įrašas „30 years connecting global brands to markets“" width="1080" height="1350" loading="lazy"></button>
+            <figcaption><h3 data-i18n="ig8Title">30 metų</h3><p class="tag">IEVA &amp; CO</p><p class="work-desc" data-i18n="ig8Text">Įrašas, skirtas įmonės 30 metų sukakčiai. Jame yra antraštė, trumpa įmonės istorija ir trys skaičiai: daugiau nei 900 prekių ženklų, daugiau nei 40 tiekėjų ir 8 šalys. Čia matyti, kaip jis atrodo Instagram sraute.</p></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="section" id="video">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="videoHeading">Filmai ir video</h2>
+          <p data-i18n="videoText">Du trumpametražiai filmai ir viena animacija.</p>
+        </div>
+
+        <div class="films">
+          <article class="film reveal">
+            <div class="film-frame"><iframe id="drive-horizontas" title="Kur baigiasi horizontas" src="https://drive.google.com/file/d/1dWMciYjXrYY5sVAXNd_jj1G7kaTzsxUB/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="film-info">
+              <p class="tag" data-i18n="v1Type">Trumpametražis filmas · operatorė</p>
+              <h3 data-i18n="v1Title">Kur baigiasi horizontas</h3>
+              <p data-i18n="v1Text">Konkursinis filmas, dalyvavęs „Kino kovose“ ir rodytas kino teatre. Šiame projekte buvau operatorė.</p>
+              <div class="film-actions">
+                <button class="chip drive-switch active" type="button" data-target="drive-horizontas" data-src="https://drive.google.com/file/d/1dWMciYjXrYY5sVAXNd_jj1G7kaTzsxUB/preview" data-i18n="watchFilm">Filmas</button>
+                <button class="chip drive-switch" type="button" data-target="drive-horizontas" data-src="https://drive.google.com/file/d/12KRqqjJZ-kxLmqOonauHJouBog7FHM4r/preview" data-i18n="watchTrailer">Traileris</button>
+                <button class="chip drive-switch" type="button" data-target="drive-horizontas" data-src="https://drive.google.com/file/d/11r5j_GcyPlNeuX-hF_5CzCZZMavPC7mh/preview">Behind the scenes</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="film film-flip reveal">
+            <div class="film-frame"><iframe id="drive-jis" title="Ir tada buvo jis" src="https://drive.google.com/file/d/1C0UYZM9IXOpqWxFcG7Api08oOPkwF_Tr/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="film-info">
+              <p class="tag" data-i18n="v2Type">Trumpametražis filmas · montažas ir garsas</p>
+              <h3 data-i18n="v2Title">Ir tada buvo jis</h3>
+              <p data-i18n="v2Text">Šį filmą montavau ir dirbau su garso režisūra. Daugiausia dėmesio skyriau montažo ritmui ir nuotaikai, kad emocinė istorija būtų papasakota sklandžiai.</p>
+              <div class="film-actions">
+                <button class="chip drive-switch active" type="button" data-target="drive-jis" data-src="https://drive.google.com/file/d/1C0UYZM9IXOpqWxFcG7Api08oOPkwF_Tr/preview" data-i18n="watchFilm">Filmas</button>
+                <button class="chip drive-switch" type="button" data-target="drive-jis" data-src="https://drive.google.com/file/d/1dR4kyBexLj9-9rEXqy2FdIVgXlTWbQhH/preview" data-i18n="watchTrailer">Traileris</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="film reveal">
+            <div class="film-frame"><iframe id="drive-vl" title="VL video" src="https://drive.google.com/file/d/19coI6hb_edYD5HkNZSRdeRTp71fdYYvl/preview" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="film-info">
+              <p class="tag">After Effects · motion</p>
+              <h3>VL video</h3>
+              <p data-i18n="v3Text">Animacijos darbas apie judesį ir kompoziciją, kuriame kūriau vizualinį ritmą.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-panel" id="apie">
+      <div class="wrap about">
+        <div class="about-main reveal">
+          <h2 data-i18n="aboutHeading">Apie mane</h2>
+          <p class="statement" data-i18n="about0">Studijuoju multimediją ir kompiuterinį dizainą Vilniaus Gedimino technikos universitete.</p>
+          <p data-i18n="about1">Domiuosi video kūrimu, montažu, grafiniu dizainu, vizualine komunikacija ir turinio paruošimu skirtingiems formatams.</p>
+          <p data-i18n="about3">Filmų projektuose buvau operatorė, montuotoja ir garso režisierė. Po šių darbų geriau suprantu kadrą, ritmą, garsą ir montažą.</p>
+          <div class="about-mark" aria-hidden="true"><svg><use href="#mc"/></svg></div>
+        </div>
+        <ul class="skills">
+          <li class="reveal">
+            <h3 data-i18n="skill2Title">Grafinis dizainas</h3>
+            <p data-i18n="skill2Text">Plakatai, reklaminiai vizualai, produktų kompozicijos ir skaitmeniniai maketai.</p>
+            <p class="tools"><span>Photoshop</span><span>Illustrator</span><span>Canva</span></p>
+          </li>
+          <li class="reveal">
+            <h3 data-i18n="skill3Title">Logotipai ir identitetas</h3>
+            <p data-i18n="skill3Text">Logotipo idėjos, spalvų kryptys, moodboard'ai ir vizualinio stiliaus paieška.</p>
+            <p class="tools"><span>Illustrator</span><span>InDesign</span></p>
+          </li>
+          <li class="reveal">
+            <h3 data-i18n="skill1Title">Video montažas</h3>
+            <p data-i18n="skill1Text">Trumpų ir ilgesnių video montažas, ritmas, garso ir vaizdo suderinimas.</p>
+            <p class="tools"><span>DaVinci Resolve</span><span>CapCut</span></p>
+          </li>
+          <li class="reveal">
+            <h3 data-i18n="skill4Title">Motion ir 3D</h3>
+            <p data-i18n="skill4Text">Bazinė animacija, vizualiniai efektai ir 3D objektų kūrimo praktika.</p>
+            <p class="tools"><span>After Effects</span><span>Blender</span></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="kontaktai">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="wrap contact-inner">
+        <div class="reveal">
+          <h2 data-i18n="contactHeading">Susisiekime</h2>
+          <p class="contact-text" data-i18n="contactText">Esu atvira praktikos, kūrybinių projektų ar bendradarbiavimo pasiūlymams.</p>
+        </div>
+        <div class="contact-actions reveal">
+          <button class="contact-link copy" type="button" data-copy="miodisauskaite@gmail.com" data-kind="email">miodisauskaite@gmail.com</button>
+          <button class="contact-link copy" type="button" data-copy="+37062736341" data-kind="phone">+370 627 36341</button>
+          <span class="copy-status" aria-live="polite"></span>
+        </div>
+      </div>
+      <p class="wordmark" aria-hidden="true">Eva Miodišauskaitė</p>
+    </section>
   </main>
-  <footer class="footer"><p>© <span id="year"></span> Eva Miodišauskaitė. Multimedijos portfolio.</p></footer>
-  <script src="script.js?v=20260609-2"></script>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> Eva Miodišauskaitė</p>
+      <a href="#top" data-i18n="toTop">↑ Į viršų</a>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" aria-label="Darbo peržiūra">
+    <button class="lightbox-close" type="button" aria-label="Uždaryti">×</button>
+    <div class="lightbox-body">
+      <div class="lightbox-media"></div>
+      <div class="lightbox-info">
+        <p class="tag lightbox-type"></p>
+        <h3 class="lightbox-title"></h3>
+        <p class="lightbox-desc"></p>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js?v=20261110-15"></script>
 </body>
 </html>
